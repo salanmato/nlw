@@ -8,13 +8,14 @@
 ul {
     list-style-type: none;
 }
-
+/* background */
 body {
-    background-image: url(./assets/Fundo.jpg);
+   /* background-image: url(./assets/Fundo.jpg); */
+    background-image: linear-gradient(0deg, #1c174b 0%, #4a447e 50.52%, #34265f 100%);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-color: #121214;
+    background-color: #1c174b;
 }
 body * {
     font-family: 'Inter', sans-serif;
@@ -44,7 +45,7 @@ header div img:hover {
 header div img {
     border-radius: 50%;
     width: 120px;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(90deg, #9572FC 0%, #27e2a1 50.52%, #ddf795 100%);
     padding: 4px;
     
     transition: transform .3s;
@@ -69,15 +70,15 @@ main {
 
 /* degrade e cor do texto*/
 section {
-    color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    color: rgb(42, 36, 46);
+    background-image: linear-gradient(90deg, #5146e4 0%, #27e25f 50.52%, #6b19c9 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
 
 /* forma das caixas*/
 section div {
-    background-color: #2a2634;
+    background-color: #cbbaf7;
     padding: 24px 32px 32px 32px;
    /* padding-top: 24px; */
     border-radius: 8px;
@@ -91,7 +92,7 @@ section h2 {
 /* fonte nos parágrafos*/
 section p {
     letter-spacing: -0.18px;
-    color: #A1A1AA;
+    color: rgb(72, 61, 80);
 }
 
 /* disposição das caixas*/
@@ -120,7 +121,7 @@ section ul li:hover {
 .channel-list img {
     width: 70px;
     border-radius: 50%;
-    border: 1px solid #443e54;
+ /*   border: 1px solid #443e54; */
 }
 
 
